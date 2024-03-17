@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anta&family=League+Spartan:wght@100..900&family=Poppins:wght@900&family=Roboto:wght@400;500;700;900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <section>
+        <div id="hide" class="rounded">
+            <div class="start d-flex justify-content-between">
+                <div class="pd d-flex">
+                    <img src="assests/profile_img.png" alt="" class="sundhar rounded">
+                    <div class="name_details">
+                        <h2 class="name">Sundharesan</h2>
+                        <h5 class="position rounded">Web Developer / UI UX Designer</h5>
+                    </div>
+                </div>
+                <div class="cont_links d-flex justify-content-center flex-column">
+                    <a href="https://www.instagram.com/its_me_albatrozz/"><img src="assests/insta.png" alt=""></a>
+                    <a href="https://www.linkedin.com/in/sundharesan-i-78522527a/"><img src="assests/linkedin.png" alt=""></a>
+                    <a href="https://github.com/Albatrozz20"><img src="assests/github.png" alt=""></a>
+                </div>
+            </div>
+            <button class="btn_cv_hidden rounded d-flex flex-start"  onclick="window.location.href='assests/Resume.pdf'">Download CV</button>
+            <div class="bio text-start d-flex flex-column rounded">
+                <div class="bd d-flex">
+                    <img src="assests/phone.png" alt="" class="bd_icons">
+                    <div class="det">
+                        <p>Phone</p>
+                        <h6>7397104290</h6>
+                    </div>
+                </div>
+                <div class="bd d-flex">
+                    <img src="assests/email.png" alt="" class="bd_icons">
+                    <div class="det">
+                        <p>Email</p>
+                        <h6 class="email_show">thatismyhappiness@gmail.com</h6>
+                        <h6 class="email_hide">thatismyhappiness @gmail.com</h6>
+                    </div>
+                </div>
+                <div class="bd d-flex">
+                    <img src="assests/location.png" alt="" class="bd_icons">
+                    <div class="det">
+                        <p>Location</p>
+                        <h6>Arumuganeri, Tuticorin</h6>
+                    </div>
+                </div>
+                <div class="bd d-flex">
+                    <img src="assests/calender.png" alt="" class="bd_icons">
+                    <div class="det">
+                        <p>Birthday</p>
+                        <h6>November 15, 2002</h6>
+                    </div>
+                </div>
+            </div>
+            <br>
+        </div>
+        </div>
+        <div class="container">
+            <div class="row all justify-content-center text-center">
+                <div class="col-md-1 nav sep d-flex justify-content-around text-center p-3 rounded">
+                    <div class="navlinks rounded text-center d-flex align-items-center justify-content-center selected" id="about_link">
+                        <a onclick="about()"><img src="assests/icon_about.png" alt=""></a>
+                    </div>
+                    <div class="navlinks rounded text-center d-flex align-items-center justify-content-center" id="qualification_link">
+                        <a onclick="qualification()"><img src="assests/icon_certificate.png" alt=""></a>
+                    </div>
+                    <div class="navlinks rounded text-center d-flex align-items-center justify-content-center" id="projects_link">
+                        <a onclick="projects()"><img src="assests/icon_project.png" alt=""></a>
+                    </div>
+                    <div class="navlinks rounded text-center d-flex align-items-center justify-content-center"
+                    id="contact_link">
+                        <a onclick="contact()"><img src="assests/icon_mail.png" alt=""></a>
+                    </div>
+                </div>
+                <!-- main -->
+                <div class="col-md-7 details sep text-start rounded">
+                    <div id="about" class="p-4">
+                        <div class="heading d-flex justify-content-start align-items-center">
+                            <h2 class="head">About</h2>
+                            <div class="line"></div>
+                        </div>
+                        <p>I'm a Fresher from National Engineering College, Kovilpatti, eager to work as a Web developer and UI UX Designer. I enjoy turning complex problems into simple, beautiful and intuitive designs.</p>
+                        <p>My aim is to bring across your message and identity in the most creative way.</p>
+                        <h2 class="head">What I Do!</h2>
+                        <div class="wid row text-center justify-content-center">
+                            <div class="wicd col-md-5 d-flex justify-content-center rounded">
+                                <img src="assests/uiux.png" alt="" height="40px">
+                                <h5>UI UX Design</h5>
+                            </div>
+                            <div class="wicd col-md-5 d-flex justify-content-center rounded">
+                                <img src="assests/web.png" alt="" height="40px">
+                                <h5>Web development</h5>
+                            </div>
+                            <div class="wicd col-md-5 d-flex justify-content-center rounded">
+                                <img src="assests/photo.png" alt="" height="40px">
+                                <h5>Photo Editing</h5>
+                            </div>
+                            <div class="wicd col-md-5 d-flex justify-content-center rounded">
+                                <img src="assests/video.png" alt="" height="40px">
+                                <h5>Video Editing</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="qualification" class="p-4">
+                        <div class="heading d-flex justify-content-start align-items-center">
+                            <h3 class="head">Languages Known</h3>
+                            <div class="line"></div>
+                        </div>
+                        <div class="ll row text-center justify-content-center p-3">
+
+                            <div class="lk col-md-5 d-flex justify-content-center rounded">
+                                <h5>C / Java</h5>
+                            </div>
+                            <div class="lk col-md-5 d-flex justify-content-center rounded">
+                                <h5>HTML / CSS / Javascript</h5>
+                            </div>
+                        </div>
+                        <div class="heading d-flex justify-content-start align-items-center">
+                            <h3 class="head">Education</h3>
+                            <div class="line"></div>
+                        </div>
+                        <div class="row edu text-center justify-content-center p-3">
+
+                            <div class="ed col-md-5 d-flex justify-content-center rounded">
+                                <p>BE - National Engineering College, Kovilpatti.</p>
+                            </div>
+                            <div class="ed col-md-5 d-flex justify-content-center rounded">
+                                <p>DEEE - Xavier's Polytechnic College, Seydunganallur.</p>
+                            </div>
+                            <div class="ed col-md-5 d-flex justify-content-center rounded">
+                                <p>HSC- Kamlavati Senior Secondary school, Tuticorin.</p>
+                            </div>
+                            <div class="ed col-md-5 d-flex justify-content-center rounded">
+                                <p>SSLC - Kamlavati Senior Secondary school, Tuticorin.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="projects" class="p-4">
+                        <div class="heading d-flex justify-content-start align-items-center">
+                            <h2 class="head">Projects</h2>
+                            <div class="line"></div>
+                        </div>
+                        <div class="proj row text-center justify-content-center p-3">
+                            <div class="prod d-flex col-lg-5 flex-column align-items-center justify-content-center rounded">
+                                <img src="assests/solarhome.jpg" alt="">
+                                <h6>Real time monitoring of solar home system using IOT</h6>
+                            </div>
+                            <div class="prod d-flex col-lg-5 flex-column align-items-center justify-content-center rounded">
+                                <img src="assests/egate.jpg" alt="">
+                                <h6>Advance Harbor side E-Gate system using IOT</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="contact" class="p-4">
+                        <div class="heading d-flex justify-content-start align-items-center">
+                            <h2 class="head">Contact</h2>
+                            <div class="line"></div>
+                        </div>
+                        <br>
+                        <br>
+                        <p>I'm Always Open To Discussing Product</p>
+                        <h6>Design work / Web Development / Internships</h6>
+                        <br>
+                        <input type="text" placeholder="Name*">
+                        <br>
+                        <br>
+                        <input type="text" placeholder="Email*">
+                        <br>
+                        <br>
+                        <input type="text" placeholder="Message*">
+                        <br>
+                        <br>
+                        <button class="btn_cv rounded">Submit</button>
+                    </div>
+                </div>
+                <!-- ----- -->
+                <div class="col-md-3 basics sep rounded" id="show">
+                    <img src="assests/profile_img.png" alt="" class="profile_img rounded">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <div class="name_details">
+                        <h2 class="name">Sundharesan</h2>
+                        <h5 class="position rounded">Web Developer / UI UX Designer</h5>
+                    </div>
+                    <div class="cont_links d-flex justify-content-center">
+                        <a href="https://www.instagram.com/its_me_albatrozz/"><img src="assests/insta.png" alt=""></a>
+                        <a href="https://www.linkedin.com/in/sundharesan-i-78522527a/"><img src="assests/linkedin.png" alt=""></a>
+                        <a href="https://github.com/Albatrozz20"><img src="assests/github.png" alt=""></a>
+                    </div>
+                    <div class="bio text-start d-flex flex-column rounded">
+                        <div class="bd d-flex">
+                            <img src="assests/phone.png" alt="" class="bd_icons">
+                            <div class="det">
+                                <p>Phone</p>
+                                <h6>7397104290</h6>
+                            </div>
+                        </div>
+                        <div class="bd d-flex">
+                            <img src="assests/email.png" alt="" class="bd_icons">
+                            <div class="det">
+                                <p>Email</p>
+                                <h6 class="email_show">thatismyhappiness@gmail.com</h6>
+                                <h6 class="email_hide">thatismyhappiness @gmail.com</h6>
+                            </div>
+                        </div>
+                        <div class="bd d-flex">
+                            <img src="assests/location.png" alt="" class="bd_icons">
+                            <div class="det">
+                                <p>Location</p>
+                                <h6>Arumuganeri, Tuticorin</h6>
+                            </div>
+                        </div>
+                        <div class="bd d-flex">
+                            <img src="assests/calender.png" alt="" class="bd_icons">
+                            <div class="det">
+                                <p>Birthday</p>
+                                <h6>November 15, 2002</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn_cv rounded" onclick="window.location.href='assests/Resume.pdf'">Download CV</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- scripts -->
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
